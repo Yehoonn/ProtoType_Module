@@ -16,6 +16,11 @@ test.prototype.squareArea = (width, height) => {
 test.prototype.lol = () => {
   return "lol";
 };
+
+test.prototype.hello = () => {
+  return "hello";
+};
+
 let square = new test(width, height);
 
 console.log(square.lol());
